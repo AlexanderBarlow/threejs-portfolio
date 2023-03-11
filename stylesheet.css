@@ -57,6 +57,11 @@ body {
   border: solid 2px #000;
 }
 
+#bg1:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
 h2 {
   flex: 100%;
   align-self: center;
@@ -108,7 +113,10 @@ h1 {
 }
 
 #name {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
+
 
 
