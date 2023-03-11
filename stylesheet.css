@@ -34,6 +34,18 @@ body {
   margin-top: 2%;
 }
 
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 2px #000;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(1px);
+  padding: 3%;
+  margin-top: 2%;
+}
+
 #hero {
   padding: 1%;
   flex: 45%
@@ -50,15 +62,33 @@ h2 {
   align-self: center;
 }
 
-#skillsList {
+.skillsList {
   flex: 100%;
   align-self: center;
 }
 
 .skillItem {
-  display: inline;
-  flex: 100%;
+  display: inline-flex;
+  flex: 33%;
   margin: 2%;
+}
+
+.projectItem {
+  display: inline-flex;
+  flex: 33%;
+  margin: 2%;
+}
+
+.card {
+ margin: 3%;
+ flex: 33%;
+}
+
+.projectList {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
@@ -72,3 +102,5 @@ h1 {
 #name {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+
