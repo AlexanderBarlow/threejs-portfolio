@@ -30,7 +30,8 @@ body {
   backdrop-filter: blur(1px);
   width: 90vw;
   height: fit-content;
-  padding: 5%;
+  padding: 3%;
+  margin-top: 2%;
 }
 
 #hero {
@@ -42,6 +43,22 @@ body {
   flex: 45%;
   box-shadow: 2px 2px 2px #000;
   border: solid 2px #000;
+}
+
+h2 {
+  flex: 100%;
+  align-self: center;
+}
+
+#skillsList {
+  flex: 100%;
+  align-self: center;
+}
+
+.skillItem {
+  display: inline;
+  flex: 100%;
+  margin: 2%;
 }
 
 
