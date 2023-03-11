@@ -9,7 +9,6 @@ body {
   display: inline-flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 5px 5px #FFF;
   padding: 5%;
 }
 
@@ -27,6 +26,8 @@ body {
 
 #bg1 {
   flex: 45%;
+  box-shadow: 2px 2px 2px #000;
+  border: solid 2px #000;
 }
 
 
