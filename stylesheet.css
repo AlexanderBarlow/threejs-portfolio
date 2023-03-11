@@ -2,6 +2,18 @@ body {
     margin: 0;
     background-color: #8a2be2;
     color: #000;
-  };
+  }
 
+.main {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
