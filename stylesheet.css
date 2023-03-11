@@ -2,14 +2,15 @@ body {
     margin: 0;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(22,2,102,1) 100%);
-    color: #000;
+    color: #FFF;
   }
 
 .main {
   display: inline-flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  border: 5px 5px #FFF;
+  padding: 5%;
 }
 
 .about {
