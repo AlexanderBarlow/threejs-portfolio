@@ -19,3 +19,20 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+#hero {
+  padding: 1%;
+  flex: 45%
+}
+
+#bg1 {
+  flex: 45%;
+}
+
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(149,66,133), rgba(22,2,102,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
