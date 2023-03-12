@@ -132,3 +132,34 @@ h1 {
   color: rgba(255, 255, 255, 1);
   text-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
 }
+
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  border: solid 2px #000;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(1px);
+  height: fit-content;
+  padding: 3%;
+  margin-top: 2%;
+}
+
+#download {
+  display: flex;
+  align-self: center;
+  margin: 3%;
+  height: fit-content;
+  width: fit-content;
+}
+
+#download:hover {
+  color: rgb(101, 16, 170);
+  text-shadow: 5px 5px 5px rgba(145, 92, 182, 0.4);
+}
+
+h3 {
+  flex: 100%;
+}
