@@ -18,7 +18,7 @@ body {
 }
 
 .about {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -58,8 +58,9 @@ body {
 #bg1 {
   display: flex;
   flex-direction: row;
-  flex: wrap;
+  flex-wrap: wrap;
   flex: 45%;
+  width:fit-content;  
 }
 
 #heroimg {
