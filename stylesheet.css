@@ -24,15 +24,15 @@ body {
   justify-content: center;
 }
 
+
 .skills {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  align-content: center;
   border: solid 2px #000;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(1px);
-  width: 90vw;
   height: fit-content;
   padding: 3%;
   margin-top: 2%;
@@ -67,18 +67,26 @@ body {
 }
 
 h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 100%;
-  align-self: center;
 }
 
 .skillsList {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
   flex: 100%;
-  align-self: center;
+}
+
+i {
+  margin: 2%;
 }
 
 .skillItem {
   display: inline-flex;
-  flex: 33%;
+  flex: 100%;
   margin: 2%;
 }
 
