@@ -10,6 +10,14 @@ body {
   min-height: 100vh;
 }
 
+nav {
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  margin: 1%;
+  flex: 100%;
+}
+
 .main {
   display: inline-flex;
   flex-direction: column;
@@ -174,4 +182,12 @@ h3 {
 p {
   line-height: 55px;
   font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: inline-flex;
+    flex-flow: row wrap;
+    flex: 30%;
+  }
 }
