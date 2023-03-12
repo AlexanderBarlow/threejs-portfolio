@@ -6,7 +6,7 @@ body {
     rgba(0, 0, 0, 1) 0%,
     rgba(22, 2, 102, 1) 100%
   );
-  color: #fff;
+  color:blueviolet;
   min-height: 100vh;
 }
 
@@ -162,4 +162,9 @@ h1 {
 
 h3 {
   flex: 100%;
+}
+
+p {
+  line-height: 55px;
+  font-size: 25px;
 }
