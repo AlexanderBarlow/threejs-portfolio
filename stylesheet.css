@@ -1,10 +1,14 @@
 body {
-    margin: 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(22,2,102,1) 100%);
-    color: #FFF;
-    min-height: 100vh;
-  }
+  margin: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(22, 2, 102, 1) 100%
+  );
+  color: #fff;
+  min-height: 100vh;
+}
 
 .main {
   display: inline-flex;
@@ -26,7 +30,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   border: solid 2px #000;
-  background-color: rgba(255, 255, 255, .15);  
+  background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(1px);
   width: 90vw;
   height: fit-content;
@@ -40,7 +44,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   border: solid 2px #000;
-  background-color: rgba(255, 255, 255, .15);  
+  background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(1px);
   padding: 3%;
   margin-top: 2%;
@@ -48,7 +52,7 @@ body {
 
 #hero {
   padding: 1%;
-  flex: 45%
+  flex: 45%;
 }
 
 #bg1 {
@@ -59,7 +63,7 @@ body {
 
 #bg1:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
 }
 
 h2 {
@@ -84,18 +88,20 @@ h2 {
   margin: 2%;
 }
 
-.card {
- margin: 3%;
- flex: 33%;
- box-shadow: 5px 5px 5px #000;
- transition: all .2s ease-in-out; 
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 33%;
 }
 
-.card:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-  transform: scale(1.03); 
+.card {
+  flex: 25%;
+  margin: 3%;
+  box-shadow: 5px 5px 5px #000;
+  transition: all 0.2s ease-in-out;
 }
+
 
 .projectList {
   display: inline-flex;
@@ -104,19 +110,16 @@ h2 {
   justify-content: center;
 }
 
-
 h1 {
   font-size: 72px;
-  background: -webkit-linear-gradient(rgb(149,66,133), rgba(22,2,102,1));
+  background: -webkit-linear-gradient(rgb(149, 66, 133), rgba(22, 2, 102, 1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #name {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgba(255, 255, 255, 1);
-  text-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  text-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
 }
-
-
-
