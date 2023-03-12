@@ -59,7 +59,10 @@ body {
   display: flex;
   flex-direction: row;
   flex: wrap;
-  flex: 50%;
+  flex: 45%;
+}
+
+#heroimg {
   box-shadow: 5px 5px 5px #000;
   border: solid 2px #000;
 }
