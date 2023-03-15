@@ -120,7 +120,7 @@ i {
 }
 
 .card {
-  flex: 25%;
+  flex: 40%;
   margin: 3%;
   box-shadow: 5px 5px 5px #000;
   transition: all 0.2s ease-in-out;
