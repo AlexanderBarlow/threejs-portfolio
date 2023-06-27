@@ -198,11 +198,21 @@ p {
 
   }
   .card {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
   } 
 
   #bg1 {
     flex: 0 0 100%;
+  }
+
+  .skillsList {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .skillsList i {
+    height: fit-content;
+    width: fit-content;
   }
 }
 
