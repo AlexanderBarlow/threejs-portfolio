@@ -198,6 +198,15 @@ p {
   flex: 0 0 100%;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
 .card {
   display: flex;
   flex-direction: row;
@@ -212,6 +221,11 @@ p {
   flex: 0 0 100%;
 }
 
+.skillsList i {
+  height: fit-content;
+  width: fit-content;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: row;
@@ -221,6 +235,8 @@ p {
 .navbar-nav li {
   margin-right: 10px;
 }
+
+
 
 
 }
