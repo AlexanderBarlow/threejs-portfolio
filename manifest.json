@@ -3,7 +3,7 @@
     "background_color": "#3f2f5b",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "index.html",
     "name": "portfolio",
     "short_name": "portfolio",
     "description": "portfolio",
