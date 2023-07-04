@@ -7,9 +7,8 @@ body {
     rgba(22, 2, 102, 1) 100%
   );
   color:blueviolet;
-  min-height: 100vh;
-  
 }
+
 
 nav {
   display: flex;
@@ -31,7 +30,6 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 
 
@@ -191,28 +189,28 @@ p {
   font-size: 25px;
 }
 
-@media screen and (max-width: 800px) {
-  nav {
-    display: inline-flex;
-    flex: 0 0 100%;
+@media screen and (max-width: 1000px) {
+  
+#hero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+}
 
-  }
-  .card {
-    flex: 0 0 100%;
-  } 
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+}
 
-  #bg1 {
-    flex: 0 0 100%;
-  }
+.skillsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+}
 
-  .skillsList {
-    height: fit-content;
-    width: fit-content;
-  }
-
-  .skillsList i {
-    height: fit-content;
-    width: fit-content;
-  }
 }
 
