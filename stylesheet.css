@@ -212,5 +212,16 @@ p {
   flex: 0 0 100%;
 }
 
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+}
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+
 }
 
